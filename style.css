@@ -1,0 +1,342 @@
+body {
+	margin-left: 60px;
+	margin-right: 60px;
+	font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header {
+	width: 100%;
+	height: 54px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img {
+	width: 110px;
+	height: 24px;
+	margin-top: 6px; 
+	margin-left: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header nav {
+	margin-left: -15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header ul {
+	list-style: none;
+	font-family: sans-serif;
+	font-size: .8rem;
+}
+
+.header ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+.header ul li:hover { 
+  border-bottom: 2px solid black;
+}
+
+.right-nav {
+	float: right;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.right-nav1 ul {
+	list-style: none;
+	font-family: sans-serif;
+	font-size: .8rem;
+}
+
+.float-nav1 ul li {
+
+}
+
+.right-nav2 ul li{
+	font-size: 18px;
+	margin-top: -10px;
+}
+
+.banner {
+	margin-left: 8px;
+	margin-top: -5px;
+}
+
+.banner img{
+	position: relative;
+	width: 1215px;
+	height: 454px;
+}
+
+.bdesc {
+	position: absolute;
+	top: 205px;
+	left: 140px;
+}
+
+.bdesc h2 {
+	font-size: 24px;
+	line-height: 24px;
+	letter-spacing: -1px;
+	font-weight: 600;
+}
+
+.bdesc p {
+	margin-top: -5px;
+	font-size: 14px;
+	letter-spacing: .1px;
+}
+
+.bdesc button {
+	font-weight: 600;
+	margin-top: 8px;
+	width: 140px;
+	height: 40px;
+	border: none;
+	color: white;
+	background: black;
+}
+
+.row1 {
+	margin-top: 75px;
+	margin-left: 40px;
+	align-items: center;
+}
+
+.row1 a {
+	color: black;
+	text-decoration: none;
+}
+
+.row1 a:hover {
+	text-decoration: underline;
+}
+
+.row1 img {
+	width: 40px;
+	height: 40px;
+}
+
+.row1-img {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.row1-img figcaption {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.row2 {
+	
+	display: inline-flex;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.col {
+	width: 286.2px;
+	height: 333px;
+	margin-top: 60px;
+	margin-right: 19px;
+}
+
+.col img {
+	width: 100%;
+	height: 161px;
+}
+
+.col a{
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.col a:hover{
+	border-bottom: 2px solid blue;
+}
+
+.col h2 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.col p {
+	font-size: 14px;
+}
+
+.col i {
+	color: blue;
+}`
+
+.new {
+	height: 15px;
+	width: 20px;
+	background-color: blue;
+}
+
+.onedrive img{
+	margin-left: 10px;
+	margin-top: 80px;
+	width: 1220px;
+	height: 461px;
+	position: relative;
+}
+
+.onedrive-desc {
+	position: absolute;
+	top: 1250px;
+	left: 150px;
+}
+
+.onedrive-desc h3{
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.onedrive-desc p {
+	letter-spacing: .1px;
+	font-size: 15px;
+	margin-top: -18px;
+	margin-bottom: 30px;
+} 
+
+.onedrive-desc button {
+	color: #fff;
+	background: black;
+	border: none;
+	width: 130px;
+	height: 40px;
+}
+
+.covid-r {
+	margin-top: 30px;
+	background-color: #e6e6e6;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.covid-r h1{
+	font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 34px;
+	font-weight: 600;
+}
+
+.covid-r a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.covid-r a:hover {
+	border-bottom: 2px solid black;
+}
+
+.follow {
+	margin-left: 27px;
+	margin-top: 43px;
+
+}
+
+.follow p {
+	opacity: .8;
+	font-size: 14px;
+}
+
+.follow ul, p {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.follow ul {
+	list-style: none;
+	margin-left: -30px;
+}
+
+.follow ul li {
+	float: left;
+	margin-right: 20px;	
+	vertical-align: middle;
+}
+
+.footer {
+	background-color: #f2f2f2;
+	margin-left: -60px;
+	width: 1350px;
+	display: block;
+	margin-top: 40px;
+}
+
+.foot-list {
+	display: flex;
+	padding-top: 27px;
+	padding-left: 30px;
+}
+
+.foot-list ul {
+	font-size: 14px;
+	margin-right: 53px;
+	list-style: none;
+}
+
+.foot-list ul li {
+	line-height: 33px;
+	font-size: 11px;
+	letter-spacing: .5px;
+	opacity: .8;
+}
+
+.footer-nav {
+	margin-left: 50px;
+	display: inline-block;
+}
+
+.footer-nav ul {
+	list-style: none;
+}
+
+.lang ul li a {
+	text-decoration: none;
+	color: grey;
+	font-size: 12px;
+}
+
+.lang {
+	display: inline-block;
+}
+
+.navigation {
+	display: inline-block;
+	float: right;
+	margin-left: 520px;
+}
+
+.navigation ul {
+
+	
+}
+
+.navigation ul li {
+	float: left;
+	margin-right: 20px;
+	font-size: 13px;
+
+}
+
+.navigation ul li a {
+	color: blue;
+	text-decoration: none;
+}
+
+.navigation ul li a:hover {
+	color: black;
+	text-decoration: underline;
+}
